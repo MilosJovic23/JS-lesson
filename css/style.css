@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0;
+}
+
+#container {
+	margin-top: 20px;
+	gap: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container img {
+	border-radius: 140px;
+	margin-bottom: 20px;
+	width: 160px;
+	height: 100%;
+}
+
+#container div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+#container b, i{
+	text-align: center;
+	margin-bottom: 5px;
+}
+body {
+	background-image: linear-gradient(rgb(255, 173, 173), rgb(255, 57, 57));
+}
