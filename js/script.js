@@ -2,8 +2,6 @@
 
 //
 
-//
-
 $(document).ready(function () {
 	$.ajax({
 		url: "https://reqres.in/api/users",
